@@ -580,6 +580,7 @@ input, select, textarea {
         transform: rotateY(180deg);
         display: flex;
         align-items: center;
+        overflow-y: auto;
     }
 
         .flip-card-back p {
@@ -1127,6 +1128,7 @@ form label {
         padding: 3em 0 4em 0;
         box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
         font-size: 0.8em;
+        color: #5f5f5f;
     }
 
         #footer .copyright {
@@ -1233,8 +1235,8 @@ form label {
                 background-color: #ecf1f1;
             }
 
-            #main > section.four {
-                background-color: #e8edec;
+            #main > section.four, #main {
+                background-color: #ebefee;
             }
 
 /* Tablet view */

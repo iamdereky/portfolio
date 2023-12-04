@@ -8,7 +8,8 @@
 
 	var	$window = $(window),
 		$body = $('body'),
-		$nav = $('#nav');
+		$nav = $('#nav')
+		$main = $('main');
 
 	// Breakpoints.
 		breakpoints({
@@ -99,10 +100,10 @@
 		// Toggle.
 			$(
 				'<div id="headerToggle">' +
-					'<a href="#header" class="toggle"></a>' +
+					'<a href="#header" class="toggle" aria-label="Navigation bar"></a>' +
 				'</div>'
 			)
-				.appendTo($body);
+				.appendTo($main);
 
 		// Header.
 			$('#header')
