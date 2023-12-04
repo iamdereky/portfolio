@@ -155,9 +155,9 @@ input, select, textarea {
             display: none;
         }
 
-	footer {
+	/* footer {
 		margin: 2em 0 0 0;
-	}
+	} */
 
 	strong, b {
 		font-weight: 300;
@@ -1301,9 +1301,9 @@ form label {
             margin: 0 0 2em 0;
         }
 
-        footer {
+        /* footer {
             margin: 2em 0 0 0;
-        }
+        } */
 
     /* Container */
 
