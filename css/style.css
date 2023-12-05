@@ -1313,6 +1313,10 @@ form label {
             width: 100%;
         }
 
+            .four .container {
+                width: 80%;
+            }
+
     /* Row */
 
     .row {
